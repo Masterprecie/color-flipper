@@ -15,9 +15,17 @@
 }
 
 .app-header {
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 8px;
+}
+
+/* .tabs{
+border-bottom:5px solid red ;
+} */
+
+.activeTab {
+  border-bottom: 3px solid chocolate;
+  padding-bottom: 4px;
 }
 
 button {
@@ -29,6 +37,8 @@ button {
   color: #000;
   cursor: pointer;
   margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .navbar {
@@ -49,6 +59,14 @@ text-decoration: none;
 padding: 10px;
 }
 
+.flex{
+display: flex;
+gap: 5px;
+}
+
+.flex>p{
+cursor: pointer;
+}
 
 
 
